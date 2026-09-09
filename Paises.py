@@ -42,5 +42,5 @@ df.to_csv("Paises_catalogo.csv", index=False)
 print("Scraping exitoso y archivo catalogo_libros.csv creado.")
 """
 
-with open("scraper.py", "w", encoding="utf-8") as f:
+with open("Paises.py", "w", encoding="utf-8") as f:
     f.write(script_code)
